@@ -60,7 +60,7 @@
 
 ## 📁 Folder Structure
 
-### Frontend (`/frontend`)
+### Frontend (`/client`)
 ```
 src/
 ├── components/       # Reusable UI components
@@ -74,7 +74,7 @@ src/
 └── index.css
 ```
 
-### Backend (`/backend`)
+### Backend (`/server`)
 ```
 backend/
 ├── models/           # User and Course models
