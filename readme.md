@@ -88,11 +88,11 @@ backend/
 
 ## 🔐 Environment Variables
 
-Create a `.env` file in the `/backend` directory:
+Create a `.env` file in the `/server` directory:
 
 ```env
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/edubot_lms
+PORT=5000
+MONGODB_URI=mongodb+srv://<username>:<db_password>@cluster0.k1rjgte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=supersecuresecret
 ```
 
